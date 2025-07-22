@@ -1,0 +1,562 @@
+body *{
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    align-items: center;  
+}
+
+/* Navbar items */
+#navbar li {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Hover effect for entire box */
+#navbar li:hover {
+    background-color: #AFD4FF; /* Changes box color on hover */
+}
+
+/* Navbar links */
+#navbar a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    display: block; /* Makes the link fill the li box */
+}
+
+/* Navbar logo/image */
+#navbar img {
+    height: 45px;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.footer {
+    border-top: 1px solid #aabace; /* Separator line */
+    background-color: white; 
+    padding: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555555;
+    font-size: 1.1em; 
+    width: 100%;
+    margin-top: 40px;
+    clear: both;
+}
+
+.footer p {
+    line-height: 10px;
+}
+
+#SoulfulEmail 
+{
+    float: right;
+    clear: both;
+}
+
+.footer a {
+    color: black; 
+    text-decoration: none; /* Removes underline */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #06284e;
+}
+
+#logo {
+    width: 100%;
+}
+
+#SoulfulEmail {
+    width: 50%;
+    float: left;
+}
+
+#connect {
+    float: right;
+    margin-right: 10px;
+
+}
+
+#rights {
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+#SoulfulLogo {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer p {
+    font-size: smaller;
+    margin-left: 10px;
+    line-height: 1.3em;
+    margin-top: 30px;
+
+}
+
+.hero {
+    position: relative;
+}
+.heropic {
+    position: relative;
+    display: inline-block; /* Ensures the text overlays properly */
+    width: 100%; /* Adjust width as needed */
+}
+
+.hero img {
+    display: inline-block;
+    width: 100%; /* Makes the image responsive */
+    height: 500px;
+    
+}
+
+.herotext {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 2.8em; 
+    text-align: center;
+}
+
+.heroundertext {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 1em; 
+    text-align: center;
+}
+
+.actionbutton input[type="button"] {
+    background-color:#8FC3FD; 
+    border: 1px solid #47352d;
+    position: absolute;
+    width: 12em;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+}
+
+#welcomemessage {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-left: 11px;
+}
+
+.aboutpage {
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    line-height: 40px;
+    background-color: #ECF5FF;
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#essential {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+margin-bottom: 4%;
+margin-top: 4%;
+}
+
+.basics-container {
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+#basics img {
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+    margin-left: 2%;
+}
+
+
+#basics {
+    font-family: Arial, sans-serif; 
+    font-size: 1em;
+    overflow: hidden; 
+    line-height: 40px;
+    position: relative;
+}
+
+.mind-container {
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+#mind img {
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+    margin-left: 2%;
+}
+
+#mind {
+    font-family: Arial, sans-serif; 
+    font-size: 1em;
+    overflow: hidden; 
+    line-height: 40px;
+    position: relative;
+}
+
+
+.lifestyle-container {
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+#lifestyle img {
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+    margin-left: 2%;
+}
+
+
+#lifestyle {
+    font-family: Arial, sans-serif; 
+    font-size: 1em;
+    overflow: hidden; 
+    line-height: 40px;
+    position: relative;
+}
+
+
+#quote {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+    line-height: 40px;
+    background-color: #ECF5FF;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#registerheader {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    margin-left: 25px;
+}
+
+button[type="button"] {
+  background-color:#8FC3FD; 
+  border: none;
+  color: black;
+  margin-top: 2%;
+  padding: 11px;
+  text-align: center;
+  font-size: 1em;
+}
+
+label {
+    font-size: 16px; /* Adds some space between the label and the input field */
+    color: black; /* Dark color for the label text */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 97%; 
+    padding: 9px; 
+    margin-bottom: 10px; 
+    border: 1px solid #aabace; 
+    border-radius: 4px; 
+    font-size: 1em;
+}
+
+#register {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#register form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1em;
+    padding: 12px;
+    margin-right: 0;
+    margin-left: 25px;
+    border: 1px solid #aabace;
+    background-color: #ECF5FF;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#error1 {
+    color: red;
+}
+
+#error2 {
+    color: red;
+}
+
+#error3 {
+    color: red;
+}
+
+#error4 {
+    color: red;
+}
+
+#error5 {
+    color: red;
+}
+
+#register img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.care h2{
+    margin-top: 40px;
+    line-height: 40px;
+    text-align: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    clear: both;
+    }
+
+.care img{
+        float: left;
+        margin-left: 25px;
+        margin-right: 2%;
+        margin-bottom: 26px;
+        height: 350px;
+        width: 350px;
+        clear: both;
+    }
+    
+    .care p{
+       padding: 8%;
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    span {
+        font-family: Arial, sans-serif;
+        font-size: 21px;
+        line-height: 40px;
+    }
+    
+    .points {
+        width: 100%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        line-height: 40px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        background-color: #ECF5FF;
+        padding: 20px; /* Added padding for better spacing */
+        border-radius: 8px; /* Optional: Rounds corners for a modern look */
+        clear: both;
+    }
+
+    .points lh {
+        font-size: 1.2em;
+        font-weight:600;
+    }
+    
+    .points ol {
+        list-style: decimal; /* Ensures ordered numbering appears */
+        margin: 20px 0; /* Adds space above and below the list */
+    }
+    
+    .points li {
+        margin-bottom: 15px; /* Adds spacing between list items */
+    }
+    
+    .points span {
+        font-weight: bold; /* Highlights step headers */
+    }
+
+    
+    #ref h2{
+        font-family: Arial;
+        font-size: 16px;
+        margin-top: 40px;
+        padding-left: 2%;
+    }
+    
+    ul {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        padding-left: 2%; /* Removes duplicate declaration */
+        line-height: 40px; /* Good for spacing between items */
+        list-style-type:square; /* Removes bullets */
+    }
+    
+    ul li a {
+        text-decoration: none; /* Removes underline on links */
+        color: inherit; /* Makes links inherit the text color */
+    }
+    
+    ul li a:hover {
+        text-decoration: underline; /* Adds underline on hover for clarity */
+        color: #007BFF; /* Adds a hover color for better UI */
+        
+    }
+
+    .mindfulness {
+        height: 350px;
+        width: auto;
+        background-image: url("images/relaxing\ 2.jpg");
+        background-size: 100% 100%;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .mindfulness h1 {
+        font-family: arial;
+        color: white;
+        margin-bottom: 50px;
+        margin-top: 250px;
+        line-height: 1.5em;
+        font-size: 2.5em;
+    } 
+
+    .health {
+        margin-top: 4%;
+        clear: both;
+    }
+
+    .health img {
+        float: left;
+        width: 450px;
+        height: auto;
+        margin-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 4%;
+    }
+
+    .health h2 {
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding-bottom: 4%;
+    }
+
+    .health p {
+        position: relative;
+        line-height: 40px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+
+    .foods {
+        overflow: hidden; /* Ensures no content escapes the container */
+        padding-top: 4%;
+        padding-bottom: 4%;
+        background-color: #ECF5FF;
+    }
+    
+    .foods h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    .foods h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+    
+    .foods img {
+        width: 150px;
+        height: 150px;
+        float: left; /* Positions the image to the left */
+        margin-right: 15px; /* Adds spacing between the image and text */
+    }
+    
+    .foods p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+
+    #story {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:center;
+        line-height: 30px;
+        margin-top: 2%;
+    }
+
+    #mockintro {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 4%;
+        margin-top: 2%;
+    }
+
+    .mock h2{
+        margin-top: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        }
+    
+    .mock img{
+            margin-bottom: 26px;
+            margin-right: 4%;
+            height: auto;
+            width: 50%;
+            float: left;
+            clear: both;
+        }
+        
+        .mock p{
+            font-family: Arial;
+            font-size: 16px;
+            line-height: 40px;
+            text-align: center;
+        }
